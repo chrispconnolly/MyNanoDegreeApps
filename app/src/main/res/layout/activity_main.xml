@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="com.example.chrispconnolly.mynanodegreeapps.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Nano Degree Apps"
+        android:id="@+id/textView"
+        android:textSize="24dp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true" />
+    <Button
+        style="@style/NanoDegreeButton"
+        android:text="Popular Movies"
+        android:id="@+id/PopularMoviesButton"
+        android:layout_below="@+id/textView" />
+    <Button
+        style="@style/NanoDegreeButton"
+        android:text="Stock Hawk"
+        android:layout_below="@+id/PopularMoviesButton"
+        android:id="@+id/StockHawkButton" />
+    <Button
+        style="@style/NanoDegreeButton"
+        android:text="Build it Bigger"
+        android:layout_below="@+id/StockHawkButton"
+        android:id="@+id/BuildItBiggerButton" />
+    <Button
+        style="@style/NanoDegreeButton"
+        android:text="Make Your App Material"
+        android:layout_below="@+id/BuildItBiggerButton"
+        android:id="@+id/MakeYourAppMaterialButton" />
+    <Button
+        style="@style/NanoDegreeButton"
+        android:text="Go Ubiquitous"
+        android:layout_below="@+id/MakeYourAppMaterialButton"
+        android:id="@+id/GoUbiquitousButton" />
+    <Button
+        style="@style/NanoDegreeButton"
+        android:text="Capstone: My Own App"
+        android:layout_below="@+id/GoUbiquitousButton"
+        android:id="@+id/CapstoneButton" />
+</RelativeLayout>
